@@ -8,22 +8,58 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black">
+<body class="max-w-xl mx-auto border border-black min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800">
     <header class="text-white">
-        <h1>Links</h1>
-        <p>Enlances</p>
-        <a href="https://twitch.tv/midudev" target="_blank" aria-label="Tiwtch" title="Ir a Tiwtch de @midudev">
-            <svg width="28" height="28">
-                <use xlink:href="./assets/sprite.svg#twitch" />
-            </svg>
-        </a>
+        <img src="./assets/image.png" alt="Foto"
+            class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-80%">
+        <div class="flex flex-col justify-center items-center mb-8 -mt-4">
+            <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full shadow-sm flex items-center justify-center bg-black/65 cursor-crosshair z-10">@midudev</span>
+            <h1 class="text-3xl font-extrabold leading-tight mt-1">Miguel Nagel Duran</h1>
+        </div>
+        <section class="flex justify-center gap-2">
+            <a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch" title="Ir a Twitch de @midudev">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#twitch" />
+                </svg>
+            </a>
+
+            <a class="bg-zinc-900 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch" title="Ir a Twitch de @midudev">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#github" />
+                </svg>
+            </a>
+
+            <a class="p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
+                href="https://instagram.com" target="_blank" aria-label="Instagram" title="Ir a Instagram">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#instagram" />
+                </svg>
+            </a>
+
+            <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                href="https://youtube.com" target="_blank" aria-label="YouTube" title="Ir a YouTube">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#youtube" />
+                </svg>
+            </a>
+
+            <a class="bg-black p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                href="https://twitter.com" target="_blank" aria-label="X" title="Ir a X (Twitter)">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#x" />
+                </svg>
+            </a>
+
+            <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                href="https://linkedin.com" target="_blank" aria-label="LinkedIn" title="Ir a LinkedIn">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#linkedin" />
+                </svg>
+            </a>
+        </section>
     </header>
-    <main>
-        Mega cursos
-    </main>
-    <footer>
-        Curso de Midudev
-    </footer>
 </body>
 
 </html>
